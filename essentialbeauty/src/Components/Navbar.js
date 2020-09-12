@@ -1,6 +1,6 @@
 import React from "react";
 
-function Navbar() {
+export const Navbar = () => {
   return (
     <nav className="wrapper">
       <div>

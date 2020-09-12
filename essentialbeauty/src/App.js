@@ -3,7 +3,23 @@ import "./App.css";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 
-function App() {
+class App extends React.Component {
+  constructor() {
+    super()
+    this.state = {
+      data: {}
+    }
+  }
+  
+}
+  
+  
+  
+  
+  
+  
+  
+  
   return (
     <>
     <Navbar />
