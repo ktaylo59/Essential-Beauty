@@ -2,18 +2,17 @@ import React from "react";
 
 function Navbar() {
   return (
-  
-    <div>
+    <nav className="wrapper">
+      <div>
         <h1>ESSENTIAL BEAUTY</h1>
-      <nav>
-        <ul>
-          <li>Lips</li>
-          <li>Eyes</li>
-          <li>Face</li>
-          <li><i class ="fa fa-shopping-cart">Cart</i></li>
-        </ul>
-      </nav>
-    </div>
+          <ul>
+            <li className="navlist">Lips</li>
+            <li className="navlist">Eyes</li>
+            <li className="navlist">Face</li>
+            <li className="navlist"><i class ="fa fa-shopping-cart">Cart</i></li>
+          </ul>
+      </div>
+    </nav>
   );
 }
 

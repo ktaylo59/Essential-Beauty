@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+  .wrapper {
+    background-color: black;
+  }
+h1{
+  color: white;
+  text-align: center;
+}
+.navlist {
+  color: white;
+  /* float: left; */
+}
