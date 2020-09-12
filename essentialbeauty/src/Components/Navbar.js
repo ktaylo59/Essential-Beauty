@@ -4,7 +4,7 @@ function Navbar() {
   return (
     <nav className="wrapper">
       <div>
-        <h1>ESSENTIAL BEAUTY</h1>
+        <h1 id="head">ESSENTIAL BEAUTY</h1>
           <ul>
             <li className="navlist">LIPS</li>
             <li className="navlist">EYES</li>

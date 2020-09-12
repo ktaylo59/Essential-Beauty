@@ -2,7 +2,9 @@ import React from "react";
 
 function Footer() {
     return(
-        <div>BACK TO TOP</div>
+        <div className="bottom">
+        <a href="#head"> BACK TO TOP</a>
+        </div>
     );
 }
 export default Footer;
