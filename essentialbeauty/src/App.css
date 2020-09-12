@@ -45,5 +45,11 @@ h1{
 }
 .navlist {
   color: white;
-  /* float: left; */
+  display: inline-block;
+  padding: 0px 10px 16px;
+}
+.carticon {
+  color: white;
+  display: inline-block;
+  padding: 0px 10px 15px;
 }
