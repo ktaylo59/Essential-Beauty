@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
+import axios from 'axios';
 
 class App extends React.Component {
   constructor() {
@@ -10,16 +11,21 @@ class App extends React.Component {
       data: {}
     }
   }
-  
-}
-  
-  
-  
-  
-  
-  
-  
-  
+
+
+  componentDidMount() {
+    axios.get('http://makeup-api.herokuapp.com/api/v1/products.json')
+    .then(response =>  {
+     this.setState({ data: response.data.categories}) 
+     console.log(response.data);
+
+    })
+    .catch(error => {
+      console.log(error);
+    });
+  }
+  render() {
+   
   return (
     <>
     <Navbar />
@@ -28,5 +34,5 @@ class App extends React.Component {
     
   );
 }
-
+}
 export default App;
