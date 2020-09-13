@@ -4,6 +4,9 @@ import "./App.css";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 import ProductImages from "./Components/ProductImages";
+import Lips from "./Components/Lips";
+import Eyes from "./Components/Eyes";
+import Face from "./Components/Face";
 
 
 
@@ -35,6 +38,9 @@ class App extends React.Component {
     <Navbar />
     <ProductImages/>
     {imagesList}
+    <Lips />
+    <Eyes />
+    <Face />
     <Footer />
     </>
       );
