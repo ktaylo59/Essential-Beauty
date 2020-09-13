@@ -2,37 +2,35 @@ import React from "react";
 import "./App.css";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
-import axios from 'axios';
+import ProductImages from "./Components/ProductImages";
+
+
 
 class App extends React.Component {
-  constructor() {
-    super()
+  constructor(props) {
+    super(props)
     this.state = {
-      data: {}
-    }
+      data: [],
+      makeup: []
+    };
   }
-
-
+//api request
   componentDidMount() {
-    axios.get('http://makeup-api.herokuapp.com/api/v1/products.json')
-    .then(response =>  {
-     this.setState({ data: response.data.categories}) 
-     console.log(response.data);
-
+    fetch('http://makeup-api.herokuapp.com/api/v1/products.json')
+    .then(response => response.json()) 
+    .then((data) => {
+      this.setState({data})
     })
-    .catch(error => {
-      console.log(error);
-    });
   }
-  render() {
    
-  return (
+  render() {
+     return (
     <>
     <Navbar />
+    <ProductImages/>
     <Footer />
     </>
-    
-  );
-}
-}
+      );
+    }
+  }
 export default App;
