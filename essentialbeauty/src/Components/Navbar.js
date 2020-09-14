@@ -1,5 +1,5 @@
-import React from "react";
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import React from 'react';
+import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import Lips from './Lips';
 import Eyes from './Eyes';
 import Face from './Face';
@@ -20,8 +20,8 @@ export const Navbar = () => {
     </nav>
     <Switch>
       <Route exact path="/Lips" component={Lips} />
-      <Route path="/Header" component={Eyes} />
-      <Route path ="/Footer" component={Face}/>
+      <Route path="/Eyes" component={Eyes} />
+      <Route path ="/Face" component={Face}/>
       </Switch>
     </Router>
   );
