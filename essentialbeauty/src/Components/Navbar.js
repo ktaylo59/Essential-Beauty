@@ -11,9 +11,10 @@ export const Navbar = () => {
     <Router>
     <nav className="wrapper">
         <h1 id="head">ESSENTIAL BEAUTY</h1>
-          <ul>
-            <li className="navlist">LIPS</li>
-            <li className="navlist">EYES</li>
+        <div>
+          <div>
+            <Link className="navlist" to="/Lips">LIPS</Link
+            <Link className="navlist">EYES</li>
             <li className="navlist">FACE</li>
             <li className="carticon">
               <button>
@@ -21,7 +22,8 @@ export const Navbar = () => {
               my cart
               </button>
               </li>
-          </ul>
+          
+          </div>
     </nav>
     <Switch>
       <Route exact path="/Lips" component={Lips} />
