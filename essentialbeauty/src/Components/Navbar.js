@@ -13,8 +13,8 @@ export const Navbar = () => {
         <h1 id="head">ESSENTIAL BEAUTY</h1>
         <div>
           <div>
-            <Link className="navlist" to="/Lips">LIPS</Link
-            <Link className="navlist">EYES</li>
+            <Link className="navlist" to="/Lips">LIPS</Link>
+            <Link className="navlist" to="/Eyes">EYES</Link>
             <li className="navlist">FACE</li>
             <li className="carticon">
               <button>
