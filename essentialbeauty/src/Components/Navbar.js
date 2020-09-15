@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
+import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
 import Lips from './Lips';
 import Eyes from './Eyes';
 import Face from './Face';
@@ -16,13 +16,13 @@ export const Navbar = () => {
             <Link className="navlist" to="/Lips">LIPS</Link>
             <Link className="navlist" to="/Eyes">EYES</Link>
             <Link className="navlist" to="/Face">FACE</Link>
-            <li className="carticon">
+            <Link className="carticon" to="/Cart">
               <button>
               <i className="fa fa-shopping-cart" />
               my cart
               </button>
-              </li>
-          
+              </Link>
+          </div>
           </div>
     </nav>
     <Switch>
