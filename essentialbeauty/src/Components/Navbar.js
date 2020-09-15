@@ -11,7 +11,7 @@ export const Navbar = () => {
     <Router>
     <nav className="wrapper">
         <h1 id="head">ESSENTIAL BEAUTY</h1>
-        <div>
+        
           <div>
             <Link className="navlist" to="/Lips">LIPS</Link>
             <Link className="navlist" to="/Eyes">EYES</Link>
@@ -23,7 +23,7 @@ export const Navbar = () => {
               </button>
               </Link>
           </div>
-          </div>
+          
     </nav>
     <Switch>
       <Route exact path="/Lips" component={Lips} />
