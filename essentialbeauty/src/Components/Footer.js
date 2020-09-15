@@ -1,10 +1,9 @@
-import React from "react";
+import React from 'react'
 
-function Footer() {
-    return(
-        <div className="bottom">
-        <a href="#head"> BACK TO TOP</a>
+export default function Footer() {
+    return (
+        <div>
+            
         </div>
-    );
+    )
 }
-export default Footer;

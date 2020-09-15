@@ -1,10 +1,9 @@
-import React from 'react';
+import React from 'react'
 
-const Eyes = (props) => {
-           
-    return(
-    <div>{props.name}</div>
+export default function Eyes() {
+    return (
+        <div>
+            
+        </div>
     )
-    
 }
-export default Eyes;

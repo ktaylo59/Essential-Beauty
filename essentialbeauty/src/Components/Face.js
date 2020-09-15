@@ -1,10 +1,9 @@
-import React from 'react';
+import React from 'react'
 
-const Face = (props) => {
-           
-    return(
-    <div>{props.name}</div>
+export default function Face() {
+    return (
+        <div>
+            
+        </div>
     )
-    
 }
-export default Face;

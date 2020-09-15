@@ -1,15 +1,11 @@
-import React from 'react';
+import React from 'react'
 
-const Lips = (props) => {
-           
-    return(
-    <a href="Cosmetics" alt="cosmetics">llll</a>
+export default function Lips() {
+    return (
+        <div>
+            
+        </div>
     )
-    
-    
-    // (
-    // <div>{props.name}</div>
-    // )
-    
 }
-export default Lips;
+
+
