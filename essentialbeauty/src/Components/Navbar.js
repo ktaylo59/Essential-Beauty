@@ -5,19 +5,23 @@ import Eyes from './Eyes';
 import Face from './Face';
 import Cart from './Cart';
 
+
 export const Navbar = () => {
   return (
     <Router>
     <nav className="wrapper">
-      <div>
         <h1 id="head">ESSENTIAL BEAUTY</h1>
           <ul>
             <li className="navlist">LIPS</li>
             <li className="navlist">EYES</li>
             <li className="navlist">FACE</li>
-            <li className="carticon"><i className="fa fa-shopping-cart"></i></li>
+            <li className="carticon">
+              <button>
+              <i className="fa fa-shopping-cart" />
+              my cart
+              </button>
+              </li>
           </ul>
-      </div>
     </nav>
     <Switch>
       <Route exact path="/Lips" component={Lips} />
