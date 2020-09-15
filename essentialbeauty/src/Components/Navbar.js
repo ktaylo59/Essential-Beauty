@@ -15,7 +15,7 @@ export const Navbar = () => {
           <div>
             <Link className="navlist" to="/Lips">LIPS</Link>
             <Link className="navlist" to="/Eyes">EYES</Link>
-            <li className="navlist">FACE</li>
+            <Link className="navlist" to="/Face">FACE</Link>
             <li className="carticon">
               <button>
               <i className="fa fa-shopping-cart" />
