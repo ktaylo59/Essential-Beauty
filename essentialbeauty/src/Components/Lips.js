@@ -3,8 +3,13 @@ import React from 'react';
 const Lips = (props) => {
            
     return(
-    <div>{props.name}</div>
+    <a href="Cosmetics" alt="cosmetics">llll</a>
     )
+    
+    
+    // (
+    // <div>{props.name}</div>
+    // )
     
 }
 export default Lips;

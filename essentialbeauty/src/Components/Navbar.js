@@ -3,6 +3,7 @@ import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import Lips from './Lips';
 import Eyes from './Eyes';
 import Face from './Face';
+import Cart from './Cart';
 
 export const Navbar = () => {
   return (
@@ -22,6 +23,7 @@ export const Navbar = () => {
       <Route exact path="/Lips" component={Lips} />
       <Route path="/Eyes" component={Eyes} />
       <Route path ="/Face" component={Face}/>
+      <Route path ="/Cart" component={Cart}/>
       </Switch>
     </Router>
   );

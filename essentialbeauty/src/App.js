@@ -7,6 +7,7 @@ import ProductImages from "./Components/ProductImages";
 import Lips from "./Components/Lips";
 import Eyes from "./Components/Eyes";
 import Face from "./Components/Face";
+import Cart from "./Components/Cart";
 import Cosmetics from "./Components/Cosmetics";
 
 
@@ -43,6 +44,7 @@ class App extends React.Component {
     <Lips />
     <Eyes />
     <Face />
+    <Cart />
     <Footer />
     </>
       );
