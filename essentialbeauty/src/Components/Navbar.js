@@ -11,6 +11,7 @@ export const Navbar = () => {
     <Router>
     <nav className="wrapper">
       <h1 id="head">ESSENTIAL BEAUTY</h1>
+
         <ul>
           <li><a href="/Lips">LIPS</a>
               <ul class="dropdown">
@@ -25,7 +26,7 @@ export const Navbar = () => {
               </ul>
           </li>
           <li><a href="/Face">FACE</a>
-              <ul class="dropdown">
+              <ul className="dropdown">
                 <li><a href="/Face">Foudation</a></li>
                 <li><a href="/Face">Blush</a></li>
               </ul>

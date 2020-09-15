@@ -9,7 +9,7 @@ import Lips from "./Components/Lips";
 import Eyes from "./Components/Eyes";
 import Face from "./Components/Face";
 import Cart from "./Components/Cart";
-import Cosmetics from "./Components/Cosmetics";
+// import Cosmetics from "./Components/Cosmetics";
 
 
 
@@ -45,7 +45,7 @@ class App extends React.Component {
     <Navbar />
     <ProductImages/>
     {/* {imagesList} */}
-    <Cosmetics />
+    {/* <Cosmetics /> */}
     <Lips />
     <Eyes />
     <Face />

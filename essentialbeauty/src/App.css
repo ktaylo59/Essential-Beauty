@@ -37,7 +37,15 @@
   }
 } */
   .wrapper {
-    background-color: black;
+    background-color:black;
+     
+
+      }
+      .wrapper ul {
+       margin-top: 25px;
+        width: 100%;
+        display: flex;
+  justify-content: space-evenly;
       }
 h1{
   color: white;
@@ -50,7 +58,8 @@ h1{
 } */
 .carticon  {
   color: white;
-  display: inline-block;
+  
+  
   
 }
 .bottom {
