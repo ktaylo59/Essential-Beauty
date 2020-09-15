@@ -1,6 +1,7 @@
 import React from 'react';
 
 import "./App.css";
+// import {connect} from 'react-redux';
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 import ProductImages from "./Components/ProductImages";
@@ -12,7 +13,11 @@ import Cosmetics from "./Components/Cosmetics";
 
 
 
+
 class App extends React.Component {
+
+ 
+ 
   // constructor(props) {
   //   super(props)
   //   this.state = {
@@ -45,9 +50,11 @@ class App extends React.Component {
     <Eyes />
     <Face />
     <Cart />
+    
     <Footer />
     </>
       );
     }
   }
+
 export default App;
