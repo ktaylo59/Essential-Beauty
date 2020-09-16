@@ -1,10 +1,8 @@
 import React from 'react';
-
 import "./App.css";
-
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
-import ProductImages from "./Components/ProductImages";
+// import ProductImages from "./Components/ProductImages";
 import Lipsticks from "./Components/Lipsticks";
 import Lipliners from "./Components/Lipliners";
 import Eyeshadows from "./Components/Eyeshadows";
@@ -46,23 +44,20 @@ class App extends React.Component {
     //   return <ProductImages key={i} url={url} />
     // })
      return (
-    <>
+  <>
     <Navbar />
-    <ProductImages/>
-    {/* {imagesList} */}
-    {/* <Cosmetics /> */}
+    {/* <ProductImages/> */}
     <Lipsticks />
     <Lipliners />
-   <Eyeshadows />
-   <Eyeliners />
-   <Foundations /> 
-   <Blushes />
+    <Eyeshadows />
+    <Eyeliners />
+    <Foundations /> 
+    <Blushes />
     <Eyes />
     <Face />
     <Cart />
-    
     <Footer />
-    </>
+  </>
       );
     }
   }
