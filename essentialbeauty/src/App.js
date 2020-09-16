@@ -7,6 +7,9 @@ import Footer from "./Components/Footer";
 import ProductImages from "./Components/ProductImages";
 import Lipsticks from "./Components/Lipsticks";
 import Lipliners from "./Components/Lipliners";
+import Eyeshadows from "./Components/Eyeshadows";
+import Eyeliners from "./Components/Eyeliners";
+import Foundations from "./Components/Foundations";
 import Eyes from "./Components/Eyes";
 import Face from "./Components/Face";
 import Cart from "./Components/Cart";
@@ -49,6 +52,9 @@ class App extends React.Component {
     {/* <Cosmetics /> */}
     <Lipsticks />
     <Lipliners />
+   <Eyeshadows />
+   <Eyeliners />
+   <Foundations /> 
     <Eyes />
     <Face />
     <Cart />
