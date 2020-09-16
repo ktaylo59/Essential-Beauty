@@ -102,3 +102,14 @@ li {
    clear: both;
    width: 100%;
  }
+
+ /*Product container 
+ */
+ .product-wrapper {
+   margin-left: 5px;
+   margin-right: 5px;
+   display: flex;
+   flex-direction: column;
+   padding: 15px;
+   box-sizing: border-box;
+ }
