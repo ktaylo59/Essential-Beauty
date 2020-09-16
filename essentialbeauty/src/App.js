@@ -1,15 +1,16 @@
 import React from 'react';
 
 import "./App.css";
-// import {connect} from 'react-redux';
+
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 import ProductImages from "./Components/ProductImages";
-import Lips from "./Components/Lips";
+import Lipsticks from "./Components/Lipsticks";
+
 import Eyes from "./Components/Eyes";
 import Face from "./Components/Face";
 import Cart from "./Components/Cart";
-// import Cosmetics from "./Components/Cosmetics";
+
 
 
 
@@ -46,7 +47,7 @@ class App extends React.Component {
     <ProductImages/>
     {/* {imagesList} */}
     {/* <Cosmetics /> */}
-    <Lips />
+    <Lipsticks />
     <Eyes />
     <Face />
     <Cart />

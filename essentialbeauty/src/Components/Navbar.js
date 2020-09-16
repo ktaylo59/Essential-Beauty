@@ -1,6 +1,6 @@
 import React from 'react';
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
-import Lips from './Lips';
+import Lips from './Lipsticks';
 import Eyes from './Eyes';
 import Face from './Face';
 import Cart from './Cart';
@@ -14,13 +14,13 @@ export const Navbar = () => {
 
         <ul>
           <li><a href="/Lips">LIPS</a>
-              <ul class="dropdown">
+              <ul className="dropdown">
                 <li><a href="/Lips">Lipstick</a></li>
                 <li><a href="/Lips">Lip Liner</a></li>
               </ul>
           </li>
           <li><a href="/Eyes">EYES</a>
-              <ul class="dropdown">
+              <ul className="dropdown">
                 <li><a href="/Eyes">Eyeshadows</a></li>
                 <li><a href="/Eyes">Eye Liner</a></li>
               </ul>

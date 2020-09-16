@@ -15,7 +15,7 @@ import {
     type: GET_MAKEUP_FAILURE,
   });
   //Combining all action in an asynchronous thunk
-  export function fetchMakeup() {
+  export function fetchLipstick() {
     return async (dispatch) => {
       dispatch(getMakeup());
       try {
@@ -23,7 +23,7 @@ import {
           "https://makeup-api.herokuapp.com/api/v1/products.json?product_type=lipstick"
         );
         const data = await response.json();
-        console.log(data);
+        
         dispatch(getMakeupSuccess(data));
       } catch (error) {
         dispatch(getMakeupFailure());
