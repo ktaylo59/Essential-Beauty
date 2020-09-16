@@ -10,6 +10,7 @@ import Lipliners from "./Components/Lipliners";
 import Eyeshadows from "./Components/Eyeshadows";
 import Eyeliners from "./Components/Eyeliners";
 import Foundations from "./Components/Foundations";
+import Blushes from "./Components/Blushes"
 import Eyes from "./Components/Eyes";
 import Face from "./Components/Face";
 import Cart from "./Components/Cart";
@@ -55,6 +56,7 @@ class App extends React.Component {
    <Eyeshadows />
    <Eyeliners />
    <Foundations /> 
+   <Blushes />
     <Eyes />
     <Face />
     <Cart />
