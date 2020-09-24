@@ -26,7 +26,7 @@ class Cart extends Component {
       this.props.addedItems.map((item) => {
         return (
           <div className="cart-main">
-            <div className="items-wrapper">
+            <div className="cart-wrapper">
               <ul className="cart-items">
                 {this.props.addedItems
                   ? this.props.addedItems.map((item, index) => (
@@ -68,7 +68,7 @@ class Cart extends Component {
                         )}
                       </button>
                     </div>
-                    <button className="proceed">Proceed</button>
+                    <button className="proceed">Checkout</button>
                   </div>
                 </div>
               )}
