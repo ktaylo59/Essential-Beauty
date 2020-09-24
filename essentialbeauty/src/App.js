@@ -2,62 +2,16 @@ import React from 'react';
 import "./App.css";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
-// import ProductImages from "./Components/ProductImages";
-import Lipsticks from "./Components/Lipsticks";
-import Lipliners from "./Components/Lipliners";
-import Eyeshadows from "./Components/Eyeshadows";
-import Eyeliners from "./Components/Eyeliners";
-import Foundations from "./Components/Foundations";
-import Blushes from "./Components/Blushes"
-import Eyes from "./Components/Eyes";
-import Face from "./Components/Face";
-import Cart from "./Components/Cart";
-
-
-
-
 
 class App extends React.Component {
 
- 
- 
-  // constructor(props) {
-  //   super(props)
-  //   this.state = {
-  //     data: [],
-  //     makeup: []
-  //   };
-  // }
-//api request
-  // componentDidMount() {
-  //   fetch('http://makeup-api.herokuapp.com/api/v1/products.json')
-  //   .then(res => res.json()) 
-  //   .then((data) => {
-  //     this.setState({data}) 
-  //     //sets the value of state to the output from the API call
-  //   })
-  //   .catch(console.log)
-  // }
-   
   render() {
-    // const imagesList = this.state.data.map((url, i) => {
-    //   return <ProductImages key={i} url={url} />
-    // })
+ 
      return (
-  <>
-    <Navbar />
-    {/* <ProductImages/> */}
-    <Lipsticks />
-    <Lipliners />
-    <Eyeshadows />
-    <Eyeliners />
-    <Foundations /> 
-    <Blushes />
-    <Eyes />
-    <Face />
-    <Cart />
-    <Footer />
-  </>
+  <React.Fragment>
+       <Navbar />
+       <Footer />
+  </React.Fragment>
       );
     }
   }

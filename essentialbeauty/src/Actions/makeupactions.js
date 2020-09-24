@@ -23,7 +23,7 @@ export function fetchMakeup() {
         "http://makeup-api.herokuapp.com/api/v1/products.json"
       );
       const data = await response.json();
-      console.log(data);
+      // console.log(data);
       dispatch(getMakeupSuccess(data));
     } catch (error) {
       dispatch(getMakeupFailure());

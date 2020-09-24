@@ -1,5 +1,7 @@
 export const GET_MAKEUP = 'GET_MAKEUP';
 export const GET_MAKEUP_SUCCESS = 'GET_MAKEUP_SUCCESS';
 export const GET_MAKEUP_FAILURE = 'GET_MAKEUP_FAILURE';
-
-
+export const ADD_TO_CART = "ADD_TO_CART";
+export const REMOVE_FROM_CART = "REMOVE_FROM_CART";
+export const ADD_QUANTITY = "ADD_QUANTITY";
+export const SUB_QUANTITY = "SUB_QUANTITY";

@@ -1,20 +1,34 @@
-import React from 'react';
+import React from "react";
+import { connect } from "react-redux";
+import { ADD_TO_CART } from "../Actions/actions";
 
 const Eyeliner = (props) => {
-        return(
-        <div className="product-wrapper">
-                <div className="lippie-wrapper">
-                  <div>
-           <img src={props.eyeliner.api_featured_image} alt="images"/></div>
-              <div>
-              <h6>{props.eyeliner.name}</h6> 
-               <p> {props.eyeliner.product_type}</p>
-               <p> {props.eyeliner.price}</p>
-                </div>
-                <button>Add to Cart</button>
-                </div>
+  const handleClick = (id) => {
+    console.log("handleclick");
+
+    props.dispatch({ type: ADD_TO_CART, payload: props.eyeliner });
+  };
+
+  return (
+    <div className="card">
+      <div className="lippie-wrapper">
+        <div>
+          <img
+            src={props.eyeliner.api_featured_image}
+            className="card-img-top"
+            alt="images"
+          />
         </div>
-        
-        );
-}
-export default Eyeliner;
+        <div className="card-body">
+          <h5 className="card-title"> {props.eyeliner.name}</h5>
+          <p className="card-text"> {props.eyeliner.product_type}</p>
+          <p className="card-text"> {props.eyeliner.price}</p>
+        </div>
+        <button className="btn btn-primary" onClick={handleClick}>
+          Add to Cart
+        </button>
+      </div>
+    </div>
+  );
+};
+export default connect()(Eyeliner);

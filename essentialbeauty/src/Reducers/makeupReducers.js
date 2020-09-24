@@ -1,4 +1,6 @@
 import { GET_MAKEUP, GET_MAKEUP_SUCCESS, GET_MAKEUP_FAILURE } from '../Actions/actions';
+
+
 export const initialState = {
     makeup: [],
     loading: false,

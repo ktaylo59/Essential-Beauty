@@ -1,20 +1,34 @@
-import React from 'react';
+import React from "react";
+import { connect } from "react-redux";
+import { ADD_TO_CART } from "../Actions/actions";
 
 const Foundation = (props) => {
-        return(
-        <div className="product-wrapper">
-                <div className="lippie-wrapper">
-                  <div>
-           <img src={props.foundation.api_featured_image} alt="images"/></div>
-              <div>
-              <h6>{props.foundation.name}</h6> 
-               <p> {props.foundation.product_type}</p>
-               <p> {props.foundation.price}</p>
-                </div>
-                <button>Add to Cart</button>
-                </div>
+  const handleClick = (id) => {
+    console.log("handleclick");
+
+    props.dispatch({ type: ADD_TO_CART, payload: props.foundation });
+  };
+
+  return (
+    <div className="card">
+      <div className="lippie-wrapper">
+        <div>
+          <img
+            src={props.foundation.api_featured_image}
+            className="card-img-top"
+            alt="images"
+          />
         </div>
-        
-        );
-}
-export default Foundation;
+        <div className="card-body">
+          <h5 className="card-title"> {props.foundation.name}</h5>
+          <p className="card-text"> {props.foundation.product_type}</p>
+          <p className="card-text"> {props.foundation.price}</p>
+        </div>
+        <button className="btn btn-primary" onClick={handleClick}>
+          Add to Cart
+        </button>
+      </div>
+    </div>
+  );
+};
+export default connect()(Foundation);
