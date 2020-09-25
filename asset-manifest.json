@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/Essential-Beauty/static/css/main.44f7c1d9.chunk.css",
-    "main.js": "/Essential-Beauty/static/js/main.c9182c2e.chunk.js",
-    "main.js.map": "/Essential-Beauty/static/js/main.c9182c2e.chunk.js.map",
+    "main.js": "/Essential-Beauty/static/js/main.359de79c.chunk.js",
+    "main.js.map": "/Essential-Beauty/static/js/main.359de79c.chunk.js.map",
     "runtime-main.js": "/Essential-Beauty/static/js/runtime-main.164adfd9.js",
     "runtime-main.js.map": "/Essential-Beauty/static/js/runtime-main.164adfd9.js.map",
     "static/css/2.8aa5a7f8.chunk.css": "/Essential-Beauty/static/css/2.8aa5a7f8.chunk.css",
-    "static/js/2.8b7b3394.chunk.js": "/Essential-Beauty/static/js/2.8b7b3394.chunk.js",
-    "static/js/2.8b7b3394.chunk.js.map": "/Essential-Beauty/static/js/2.8b7b3394.chunk.js.map",
+    "static/js/2.562a5d88.chunk.js": "/Essential-Beauty/static/js/2.562a5d88.chunk.js",
+    "static/js/2.562a5d88.chunk.js.map": "/Essential-Beauty/static/js/2.562a5d88.chunk.js.map",
     "index.html": "/Essential-Beauty/index.html",
-    "precache-manifest.a449c1881b6d52530470817dcc751759.js": "/Essential-Beauty/precache-manifest.a449c1881b6d52530470817dcc751759.js",
+    "precache-manifest.36ddf96581ad7a8b4a9a12e6a8ad0e78.js": "/Essential-Beauty/precache-manifest.36ddf96581ad7a8b4a9a12e6a8ad0e78.js",
     "service-worker.js": "/Essential-Beauty/service-worker.js",
     "static/css/2.8aa5a7f8.chunk.css.map": "/Essential-Beauty/static/css/2.8aa5a7f8.chunk.css.map",
     "static/css/main.44f7c1d9.chunk.css.map": "/Essential-Beauty/static/css/main.44f7c1d9.chunk.css.map",
-    "static/js/2.8b7b3394.chunk.js.LICENSE.txt": "/Essential-Beauty/static/js/2.8b7b3394.chunk.js.LICENSE.txt",
+    "static/js/2.562a5d88.chunk.js.LICENSE.txt": "/Essential-Beauty/static/js/2.562a5d88.chunk.js.LICENSE.txt",
     "static/media/Eyes.jpg": "/Essential-Beauty/static/media/Eyes.29bf5456.jpg",
     "static/media/Face.jpg": "/Essential-Beauty/static/media/Face.9081c638.jpg",
     "static/media/Lips.jpg": "/Essential-Beauty/static/media/Lips.febf51ee.jpg"
@@ -21,8 +21,8 @@
   "entrypoints": [
     "static/js/runtime-main.164adfd9.js",
     "static/css/2.8aa5a7f8.chunk.css",
-    "static/js/2.8b7b3394.chunk.js",
+    "static/js/2.562a5d88.chunk.js",
     "static/css/main.44f7c1d9.chunk.css",
-    "static/js/main.c9182c2e.chunk.js"
+    "static/js/main.359de79c.chunk.js"
   ]
 }

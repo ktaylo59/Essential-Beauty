@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Essential-Beauty/precache-manifest.a449c1881b6d52530470817dcc751759.js"
+  "/Essential-Beauty/precache-manifest.36ddf96581ad7a8b4a9a12e6a8ad0e78.js"
 );
 
 self.addEventListener('message', (event) => {
