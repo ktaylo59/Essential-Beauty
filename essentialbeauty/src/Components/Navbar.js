@@ -1,5 +1,5 @@
 import React from "react";
-import { HashRouter as Router, Route, Switch, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 
 import { useState } from "react";
 // import Lips from "./Lips";
