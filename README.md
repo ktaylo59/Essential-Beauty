@@ -1,5 +1,5 @@
 # Essential-Beauty
-
+# Frontend https://ktaylo59.github.io/Essential-Beauty/
 # This is my backend project - https://github.com/ktaylo59/Backend-Capstone
 
 
